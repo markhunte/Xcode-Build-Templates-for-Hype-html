@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+	<key>Identifier</key>
+	<string>com.apple.dt.unit.HypeExampleWKWebView.singleViewApplication</string>
+	<key>Ancestors</key>
+	<array>
+		<string>com.apple.dt.unit.storyboardApplication</string>
+		<string>com.apple.dt.unit.coreDataCocoaTouchApplication</string>
+	</array>
+	<key>Concrete</key>
+	<true/>
+	<key>Description</key>
+	<string>This template provides a starting point for an application that uses a WKWebView in single view with postMessage examples. It provides a view controller to manage the view, and a storyboard or nib file that contains the view.
+</string>
+	<key>SortOrder</key>
+	<integer>1</integer>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>Template un offical1</string>
+			<key>Name</key>
+			<string>* NOTE: THIS IS AN UN-OFFICIAL TEMPLATE</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Description</key>
+			<string>THIS IS NOT AN OFFICIAL TUMULT HYPE TEMPLATE</string>
+			<key>Default</key>
+			<string></string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>Template un offical</string>
+			<key>Name</key>
+			<string>FOR TUMULT HYPE *</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Description</key>
+			<string>THIS IS NOT AN OFFICIAL TUMULT HYPE TEMPLATE</string>
+			<key>Default</key>
+			<string></string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>TestHypeProject</string>
+			<key>Name</key>
+			<string>Hype Test Project (Hype_world )</string>
+			<key>Description</key>
+			<string>Test Hype Project</string>
+			<key>Default</key>
+			<string>true</string>
+			<key>Units</key>
+			<dict>
+				<key>true</key>
+				<array>
+					<dict>
+						<key>Nodes</key>
+						<array>
+							<string>___VARIABLE_rootClassName___.swift</string>
+							<string>Hype_world.html</string>
+							<string>Hype_world.hyperesources</string>
+						</array>
+						<key>RequiredOptions</key>
+						<dict>
+							<key>languageChoice</key>
+							<string>Swift</string>
+						</dict>
+						<key>Definitions</key>
+						<dict>
+							<key>Base.lproj/Main.storyboard</key>
+							<dict>
+								<key>Path</key>
+								<string>Main.storyboard</string>
+								<key>SortOrder</key>
+								<integer>99</integer>
+							</dict>
+							<key>___VARIABLE_rootClassName___.swift</key>
+							<dict>
+								<key>Path</key>
+								<string>___VARIABLE_HypeTestClassName___.swift</string>
+							</dict>
+							<key>Hype_world.hyperesources</key>
+							<dict>
+								<key>SortOrder</key>
+								<integer>100</integer>
+								<key>Path</key>
+								<string>Hype_world.hyperesources</string>
+							</dict>
+							<key>Hype_world.html</key>
+							<dict>
+								<key>Path</key>
+								<string>Hype_world.html</string>
+							</dict>
+						</dict>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>WKWebViewController</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>Description</key>
+			<string>Class Name of root view controller</string>
+			<key>Name</key>
+			<string>Root View Controller</string>
+			<key>Required</key>
+			<true/>
+			<key>Identifier</key>
+			<string>rootClassName</string>
+		</dict>
+	</array>
+</dict>
+</plist>
