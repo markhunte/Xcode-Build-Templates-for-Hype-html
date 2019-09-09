@@ -33,7 +33,7 @@ It is by no means the be all and end all and likely in a part two I will go over
 
 Installing the template is very simple.
 
-Un zip the templates. You should have a new folder called **Hype iOS drop files**
+Un zip the templates. from your download You should have a new folder called **Hype iOS drop files**
 
 The open a new finder window and navigate to
 
