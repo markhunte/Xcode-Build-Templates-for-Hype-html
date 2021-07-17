@@ -1,4 +1,15 @@
 # Xcode-Build-Templates-for-Hype-html
+
+<hr>
+<div  style='background-color: #ddffdd'><strong>Thank You for your kind donation:</strong></div> 
+ <img width="118" alt="djon1" src="https://user-images.githubusercontent.com/6317734/109690714-8b69e200-7b7e-11eb-8fac-cb2cabe6abba.png">
+
+<hr>
+
+
+
+
+
 Xcode Build Templates to drag n drop your [Tumult Hype](https://tumult.com/ )  - HTML into for App creation
 
 
