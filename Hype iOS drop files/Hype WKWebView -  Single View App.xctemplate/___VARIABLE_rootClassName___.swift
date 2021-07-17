@@ -4,6 +4,13 @@ import UIKit
 import WebKit
 import AVFoundation
 
+
+class FullScreenWKWebView: WKWebView {
+   override var safeAreaInsets: UIEdgeInsets {
+       return UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
+   }
+}
+
 class ___VARIABLE_rootClassName___: UIViewController, WKNavigationDelegate ,WKScriptMessageHandler    {
     
     
@@ -58,7 +65,7 @@ class ___VARIABLE_rootClassName___: UIViewController, WKNavigationDelegate ,WKSc
       
         
         /*  MARK: Configure the WKWebView */
-        webView =  WKWebView(frame: .zero, configuration: wconfiguration)
+        webView = FullScreenWKWebView(frame: .zero, configuration: wconfiguration)
    
         /*  MARK: Config Load HTML: */
         let  theFileName = ("___VARIABLE_hypeFileName___" as NSString).lastPathComponent

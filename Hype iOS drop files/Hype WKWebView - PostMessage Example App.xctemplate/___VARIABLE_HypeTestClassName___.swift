@@ -5,6 +5,14 @@ import UIKit
 import WebKit
 import AVFoundation
 
+
+class FullScreenWKWebView: WKWebView {
+   override var safeAreaInsets: UIEdgeInsets {
+       return UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
+   }
+}
+
+
 class ___VARIABLE_rootClassName___: UIViewController, WKNavigationDelegate  ,WKScriptMessageHandler {
  
     
@@ -74,7 +82,7 @@ class ___VARIABLE_rootClassName___: UIViewController, WKNavigationDelegate  ,WKS
         wconfiguration.mediaTypesRequiringUserActionForPlayback = []
  
         
-        webView =  WKWebView(frame: .zero, configuration: wconfiguration)
+        webView = FullScreenWKWebView(frame: .zero, configuration: wconfiguration)
         
 
         let  theFileName = (htmlName as NSString).lastPathComponent
@@ -121,7 +129,7 @@ class ___VARIABLE_rootClassName___: UIViewController, WKNavigationDelegate  ,WKS
     // MARK: Add navigationBar and buttons programmatically
     override func viewWillLayoutSubviews() {
         
-        let startingYPos = UIApplication.shared.statusBarFrame.size.height;
+        let startingYPos = view.window?.windowScene?.statusBarManager?.statusBarFrame.height ?? 0
         
         
         let width = self.view.frame.width
